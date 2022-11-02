@@ -1,0 +1,37 @@
+import java.util.*;
+import java.math.*;
+
+class Main {
+  public static void main(String[] args) {
+
+  double n;
+  
+  double kare;
+    double i;
+    double sayi =2.0;
+    
+    
+    Scanner scan =new Scanner(System.in);
+    do {
+        System.out.println("sayı giriniz");   
+      n=scan.nextDouble();
+       for ( i =0 ; i<=n; i++ ){
+           
+          kare=Math.pow(sayi,i);
+         System.out.println(kare);  
+         
+     }
+
+
+
+
+      
+    } while(i<=n);
+
+    
+  }
+  
+}
+
+  
+    
